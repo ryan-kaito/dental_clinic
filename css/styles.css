@@ -1,0 +1,342 @@
+/* 共通部分 */
+body{
+  font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+  border-top: #6cc7c4 solid 8px;
+  background-color: #f6f6f6;
+}
+.container{
+  width: 922px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+/* トップページ */
+/* ヘッダー */
+.heading{
+  display: flex;
+  justify-content: space-between;
+  color: #515151;
+  text-align: center;
+  margin-top: 13px;
+}
+.logo{
+  margin: auto 0;
+}
+.dental-philosophy, .time{
+  font-size: 10px;
+}
+.tell{
+  font-size: 26px;
+  margin: 20px 0 10px;
+}
+.fa-phone-alt{
+  font-size: 20px;
+  margin-right: 8px;
+}
+.time{
+  border: #d6d6d6 solid 1px;
+  line-height: 30px;
+  width: 100%;
+}
+.time-red{
+  color:#b22c00;
+}
+
+.header-menus{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 72px;
+  text-align: center;
+  margin-top: 18px;
+}
+.left{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.right{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.menu-item{
+  display: block;
+  background-image: linear-gradient( #9BE3E1,#6CC7C4);
+  color: #fff;
+  border: #6CC7C4 solid 1px;
+  box-shadow: 1px 0 0 0px  #9BE3E1 inset;
+}
+.menu-item:hover{
+  background-image: linear-gradient( #6CC7C4,#9BE3E1);
+  color: #c1fffd;
+}
+.menu-txt{
+  padding-top: 20px;
+}
+.main-ja{
+  font-size: 14px;
+}
+.sub-en{
+  font-size: 10px;
+  font-weight: bold;
+}
+.home-link{
+  padding: 20px 0;
+}
+
+/* メインラッパー共通 */
+.main-wrapper .container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+/* メインレフト */
+.main-left{
+  width: 260px;
+}
+.for-teeth, .for-beauty{
+  border: 1px solid #6cc7c4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #fff;
+}
+.left-title{
+  padding-left: 17px;
+  background-image: linear-gradient( #9BE3E1,#6CC7C4);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 44px;
+}
+.left-list li{
+  margin: 15px 17px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #6cc7c4;
+}
+.fa-gem{
+  padding-right: 13px;
+  color: #6cc7c4;
+}
+.list-item, .beauty-item{
+  color: #515151;
+  font-size: 14px;
+}
+.list-item:hover{
+  color: #6cc6c4;
+}
+.beauty-item:hover{
+  color: #aec24c;
+}
+.for-teeth{
+  margin-bottom: 20px;
+}
+.for-beauty{
+  margin-bottom: 20px;
+}
+
+
+/* メインライト */
+.main-right{
+  width: 640px;
+}
+.right-img{
+  margin-bottom: 5px;
+}
+.main-info{
+  background-color: #fff;
+  color: #515151;
+  padding-bottom: 45px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.info-container{
+  margin: 0 auto;
+  width: 580px;
+}
+.main-info h2{
+  font-size: 16px;
+  padding-top: 23px;
+  padding-bottom: 16px;
+  margin-bottom: 13px;
+  border-bottom: 3px solid #6cc7c4;
+}
+.sub-items{
+  margin-top: 20px;
+}
+.info-item{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 11px 0;
+  border-bottom: 1px dotted #d6d6d6;
+}
+.date{
+  width: 115px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+}
+.txt-content{
+  width: 428px;
+  margin-right: 10px;
+}
+
+/* サブメニュー */
+.sub-menu{
+  margin-top: 20px;
+}
+.sub-menu-items{
+  background-color: #6cc6c4;
+  border-radius: 5px;
+  line-height: 28px;
+}
+.sub-menu-item{
+  margin-left: 22px;
+  display: inline-block;
+  font-size: 13px;
+  color: #fff;
+}
+.sub-menu-item .fa-circle{
+  margin-right: 12px;
+}
+.sub-menu-item a{
+  color: #fff;
+}
+.sub-menu-item a:hover{
+  text-decoration: underline #fff;
+}
+.adress{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+  color: #515151;
+  border-bottom: 2px solid #6cc6c4;
+}
+.adress-place, .adress-tell{
+  margin-left: 8px;
+}
+.adress-name, .adress-place, .adress-tell{
+  line-height: 50px;
+}
+
+/* フッター */
+footer{
+  text-align: center;
+  color: #515151;
+  font-size: 12px;
+  line-height: 45px;
+}
+
+/* クリニックページ */
+.home-link{
+  font-size: 10px;
+  padding-left: 2px;
+}
+.home-link a{
+  color: #4D82C4;
+  text-decoration: underline;
+}
+.home-link a:hover{
+  color: #cc4866;
+}
+.home-link p{
+  color: #515151;
+}
+.main-info{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.info-title{
+  background-image: linear-gradient(#9BE3E1,#6CC7C4);
+  font-size: 20px;
+  color: #fff;
+  line-height: 100px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #6cc6c4;
+
+}
+.txt-title{
+  padding: 23px 0;
+  font-size: 15px;
+  color: #6cc6c4;
+}
+.info-txt{
+  color: #515151;
+  font-size: 13px;
+  line-height: 22px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+.day td{
+  background-color: #D1D1D1;
+}
+td{
+  text-align: center;
+  color: #515151;
+  font-size: 13px;
+  border: #999 1px solid;
+  line-height: 45px;
+}
+td .fa-circle{
+  font-size: 1px;
+}
+
+/* サービスページ */
+
+/* スタッフページ */
+.doctor-profile-container{
+  display: flex;
+}
+.doctor-txt h3{
+  padding: 20px 0;
+}
+.doctor-photo img{
+  margin-bottom: 18px;
+}
+.doctor-name{
+  background-color: #6cc6c4;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  line-height: 22px;
+}
+.doctor-txt{
+  margin-left: 20px;
+}
+.staff-photo{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* アクセスページ */
+.access-border{
+  margin-bottom: 13px;
+  border-bottom: 3px solid #6cc7c4;
+}
+
+.access-profile-container{
+  display: flex;
+}
+.access-txt h3{
+  padding: 20px 0;
+}
+.access-photo img{
+  margin-bottom: 18px;
+}
+.access-txt{
+  margin-left: 20px;
+}
+.for-bigmap{
+  font-size: 11px;
+  color: #0000ff;
+  text-decoration: underline;
+}

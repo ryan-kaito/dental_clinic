@@ -1,0 +1,109 @@
+/* タブレット版 */
+@media(max-width:1000px){
+  /* 共通ページ */
+  .container{
+    width: 100%;
+  }
+  .heading{
+    display: block;
+  }
+  .contacts{
+    width: 220px;
+    margin: 0 auto;
+  }
+  .header-menus{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 72px 72px 72px;
+    text-align: center;
+  }
+  .menu-item{
+    border-radius: 8px;
+  }
+  .main-right,.main-left{
+    width: 100%;
+  }
+  .main-wrapper .container{
+    display: block;
+    width: 95%;
+  }
+  .main-right{
+    margin-bottom: 40px;
+  }
+  .info-container{
+    width: 92%;
+  }
+  .info-title{
+    line-height: 57px;
+  }
+  .info-item{
+    display: block;
+    width: 100%;
+  }
+  .txt-content{
+    width: 100%;
+  }
+  .date{
+    margin-bottom: 13px;
+  }
+  .sub-menu{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .adress{
+    display: block;
+    text-align: right;
+    margin-top: 12px;
+  }
+  .adress-name, .adress-place, .adress-tell{
+    line-height: 25px;
+  }
+
+  /* クリニックページ */
+  .doctor-profile-container{
+    display: block;
+  }
+  .doctor-photo{
+    text-align: center;
+  }
+
+  /* スタッフページ */
+  .staff-photo{
+    width: 600px;
+  }
+
+  /* アクセスページ */
+  .access-profile-container{
+    display: block;
+  }
+  .map {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    }
+    .map iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .access-photo{
+    text-align: center;
+  }
+}
+
+
+/* スマホ版 */
+@media(max-width:640px){
+  .clinic-img{
+    width: 100%;
+  }
+}
+
+@media(max-width:600px){
+  .staff-photo{
+    width: 100%;
+  }
+}
